@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="image/Oyindamola.png" alt="">
+        </div>
+        <div class="menu active">
+            <div class="close">
+                <img src="image/x-regular-24.png" alt="">
+            </div>
+            <ul>
+                <li>About me</li>
+                <li> services</li>
+                <li>Contact me</li>
+            </ul>
+
+        </div>
+        <div class="nav-menu">
+            <img src="image/menu-reg.png" alt="">
+        </div>
+    </div>
+    <div class="hero-section">
+        <div class="content">
+            <h1>Hi, I am Oyindamola Bakare</h1>
+            <p>Frontend Developer</p>
+            <div class="btn">
+                <button id="btn-1">Download CV</button>
+                <button id="btn-2">Learn more</button>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img src="image/Group 1.png" alt="">
+        </div>
+    </div>
+    <div class="about-section">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+    </div>
+    <div class="skills">
+        <div class="detail-one">
+            <div class="skill-img">
+                <img src="image/skill.png" alt="">
+            </div>
+            <div class="skill-content">
+                <h2>Full Name</h2>
+                <p>Your name goes here</p>
+            </div>
+        </div>
+        <div class="detail-two">
+            <div class="skill-img">
+                <img src="image/skill.png" alt="">
+            </div>
+            <div class="skill-content">
+                <h2>Email Address</h2>
+                <p>Your email goes here</p>
+            </div>
+        </div>
+        <div class="detail-three">
+            <div class="skill-img">
+                <img src="image/skill.png" alt="">
+            </div>
+            <div class="skill-content">
+                <h2>Twitter</h2>
+                <p>Your name goes here</p>
+            </div>
+        </div>
+        <div class="detail-four">
+            <div class="skill-img">
+                <img src="image/skill.png" alt="">
+            </div>
+            <address>a</address>
+            <div class="skill-content">
+                <h2>phone</h2>
+                <p>Your name goes here</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="whatido-sec">
+        <h1>What I do</h1>
+        <div class="what-heading">
+            <div class="languages">
+                <div class="code-language">
+                    <div class="language-one">
+                        <div class="code-img">
+                            <img src="image/Vector.png" alt="">
+                        </div>
+                        <div class="skill-name">
+                            <h3>Software
+                                Development</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="languages">
+                <div class="code-language">
+                    <div class="language-one">
+                        <div class="code-img">
+                            <img src="image/Vector (1).png" alt="">
+                        </div>
+                        <div class="skill-name">
+                            <h3>web Development</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="languages">
+                <div class="code-language">
+                    <div class="language-one">
+                        <div class="code-img">
+                            <img src="image/Vector (2).png" alt="">
+                        </div>
+                        <div class="skill-name">
+                            <h3 id="skill-three">web Design</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="myskills-section">
+        <h2>My Skillls</h2>
+        <div class="skills-percentage">
+            <div class="html">
+                <h1>50%</h1>
+                <p>html</p>
+            </div>
+            <div class="css">
+                <h1>50%</h1>
+                <p>css</p>
+            </div>
+            <div class="javascript">
+                <h1>50%</h1>
+                <p>javascript</p>
+            </div>
+            <div class="php">
+                <h1>50%</h1>
+                <p>php</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="hireme-section">
+
+        <div class="address">
+            <h1>Get in touch</h1>
+            <form>
+                <div class="formfield">
+                    <div class="field">
+                        <p>First Name</p>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <p>Last Name</p>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <p>Email</p>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <p>Phone Number</p>
+                        <input type="text">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="contact-msg">
+        <p>message</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div class="button">
+        <button>Submit now</button>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+
+    <script>
+        $(jQuery).ready(function () {
+            $('.nav-menu').click(function () {
+                $('.menu').removeClass('active');
+
+            });
+            $('.close').click(function () {
+                $('.menu').addClass('active');
+            });
+        })
+    </script>
+
+
+</body>
+
+</html>
